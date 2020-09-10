@@ -112,7 +112,7 @@ header{
   padding-right: 5%;
   background-color:#1e90ff;
   text-align: center;
-  height: 91px;
+  height: 100px;
 }
 
 
@@ -136,9 +136,9 @@ header{
 }
 
 .ml{
-  margin-top:10px;
   margin-bottom: 13px;
 }
+margin-top:10px;
 
 .pubg{
   padding-top:2px;
@@ -157,6 +157,10 @@ header{
   width:40%;
 }
 
+
+.tournament-icon{
+  height:100px;
+}
 .pamflet{
   height:277px;
 }
