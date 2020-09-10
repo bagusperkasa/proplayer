@@ -1,0 +1,83 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  header{
+    height:40px;
+  }
+
+  .logo{
+    width:50px;
+    margin-top:8px;
+    margin-left:5px;
+  }
+
+  .header-right a {
+    line-height: 40px;
+    padding: 0 15px;
+  }
+
+  .tournament-wrapper{
+    height: 60px;
+  }
+
+  .tournament-icon{
+    height:50px;
+  }
+
+  .pamflet{
+    display: none;
+  }
+
+  footer{
+    margin-top:10px;
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  header{
+    height:40px;
+  }
+
+  .logo{
+    width:50px;
+    margin-top:8px;
+    margin-left:5px;
+  }
+
+  .header-right a {
+    line-height: 40px;
+    padding: 0 15px;
+  }
+
+  .tournament-wrapper{
+    height: 60px;
+  }
+
+  .tournament-icon{
+    height:50px;
+  }
+
+  .pamflet{
+    display: none;
+  }
+
+  footer{
+    height: 50px;
+    margin-top:10px;
+  }
+
+  footer img{
+    width:60px;
+    float:right;
+    margin-left:-20px;
+  }
+
+  footer ul{
+    display:none;
+  }
+
+  .footer-left{
+    margin-top: 10px;
+    display: block;
+  }
+}
