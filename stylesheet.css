@@ -1,0 +1,186 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Square721 BT";
+}
+
+a {
+  text-decoration: none;
+}
+
+header{
+  height:55px;
+  width:100%;
+  background-color:#fff;
+  position:fixed;
+  top:0;
+  z-index:10;
+  border-bottom:solid;
+  border-bottom-color:#1e90ff;
+  border-bottom-width: 2px;
+}
+
+.logo{
+  width:80px;
+  margin-top:10px;
+  margin-left: -20px;
+}
+
+.header-left{
+  float:left;
+}
+
+.header-right{
+  float:right;
+  margin-right:-20px;
+}
+
+.header-right a {
+  line-height: 55px;
+  padding: 0 20px;
+  color: #1e90ff;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.header-right a:hover {
+  background-color: rgba(112, 161, 255,1.0);
+  color: white;
+}
+
+.container{
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image:url('images/Esport.jpeg');
+  background-size: cover;
+  color: #0652dd;
+  text-align: center;
+}
+
+.top-wrapper div{
+  background-color:rgba(255, 255, 255,0.7) ;
+  border-top: solid;
+  border-bottom:solid;
+  border-color:rgba(255, 255, 255,0.1);
+  border-width:50px;
+}
+.top-wrapper a{
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.daftar {
+  padding: 15px 20px;
+  background-color: #3dc1d3;
+  cursor: pointer;
+  box-shadow: 0 7px #1e90ff;
+}
+
+.daftar:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.tournament-wrapper{
+  padding-bottom:10px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color:#1e90ff;
+  text-align: center;
+  height: 91px;
+}
+
+
+.tournament{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  float:left;
+  width:25%;
+  position:relative;
+}
+
+.icon{
+  width:50%;
+  display: inline-block;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.tournaments div:hover{
+  background-color: #0652dd;
+}
+
+.ml{
+  margin-top:10px;
+  margin-bottom: 13px;
+}
+
+.pubg{
+  padding-top:2px;
+  margin-bottom: 10px;
+  width:40%;
+}
+
+.cod{
+  padding-top: 20px;
+  margin-bottom: 32px;
+}
+
+.aov{
+  padding-top: 15px;
+  margin-bottom: 22.5px;
+  width:40%;
+}
+
+.pamflet{
+  height:277px;
+}
+
+footer{
+  height:70px;
+  margin-top:300px;
+  padding-bottom:10px;
+  border-top: solid;
+  border-top-color: #1e90ff;
+
+}
+
+footer img{
+  width:80px;
+  float:right;
+  margin-left:-20px;
+}
+
+footer a{
+  color:#1e90ff;
+  margin-bottom: 10px;
+}
+
+footer a:hover{
+  color:blue;
+}
